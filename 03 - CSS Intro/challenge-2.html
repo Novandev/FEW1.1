@@ -1,0 +1,72 @@
+<!--
+
+  Challenge:
+
+  Style the text in the article below.
+
+  Your goal:
+
+  - Set a base font size on the body.
+  - Use em sizes for setting the font sizes on everything else.
+
+-->
+<style>
+  /* Your styles here */
+  h1{
+    font-style: italic;
+    font-weight: bold;
+    /* border: 3px solid #000; */
+    padding: 10px;
+    animation: colorchange 2s infinite;
+  }
+  article{
+      border: 3px solid blue;
+      padding:1.5em;
+  }
+  p {
+    font-style: italic;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  pre {
+    margin-left: 40%;
+  }
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes colorchange {
+  0% { background: yellow }
+  50%{background: #696969}
+  100% { background: blue }
+}
+</style>
+
+<article>
+  <h1>CSS - Cascading Stylesheets</h1>
+
+  <p>CSS is a language that describes the style of an HTML document.</p>
+
+  <p>CSS is a stylesheet language used to describe the presentation
+  of a document written in HTML or XML (including XML dialects such
+  as SVG or XHTML). CSS describes how elements should be rendered on
+  screen, on paper, in speech, or on other media.</p>
+
+  <pre>
+    <code>
+p.important {
+  border-style: solid;
+  border-width: 5px;
+  border-color: purple;
+}
+    </code>
+  </pre>
+</article>
