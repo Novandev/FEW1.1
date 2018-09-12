@@ -1,0 +1,68 @@
+ <!doctype html>
+ <html>
+
+<body>
+<fieldset>
+<form action="/your/api" method="">
+
+  <!-- use a p or other block tag to organize form elements onto lines -->
+ <legend>Burger </br> King</legend>
+ <div>
+   <label>Name</label>
+   <input name="name" type="text" placeholder="Your name">
+ </div>
+  <div>
+    <label>Email</label>
+    <input name="email" type="email">
+  </div>
+
+  <div>
+    <label>Pet Count</label>
+    <input name="pets">
+  </div>
+
+<div>
+<label>Birthday</label>
+<input name="birthday">
+</div>
+
+  <div>
+    <select name="prefix">
+      <option>Mr</option>
+      <option>Mrs</option>
+      <option>Ms</option>
+      <option>Sir</option>
+      <option>Madam</option>
+      <option>Dr</option>
+      <option>None</option>
+    </select>
+  </div>
+
+
+  <!-- Associate labels with form elements with for and id -->
+
+  <input id="radio-admin" type="radio" name="role" value="Admin"/>
+  <label for="radio-admin">Admin</label>
+
+  <input id="radio-editor" type="radio" name="role" value="Editor" />
+  <label for="radio-editor">Editor</label>
+
+  <input id="radio-contributor" type="radio" name="role" value="Contributor" />
+  <label for="radio-contributor">Contributor</label>
+
+  <input id="pub-checkbox" type="checkbox" name="public">
+  <label for='pub-checkbox'>Public Bio</label>
+
+  <textarea name="bio"></textarea>
+
+  <label id="upload-image">Upload Image</label>
+  <input for="upload-image" name="image" type="file">
+
+  <label id="self-destruct">Self Destruct</label>
+  <input for="self-destruct" name="self-destruct" type="check">
+
+  <button type="submit">Submit</button>
+</form>
+</fieldset>
+</body>
+ </html>
