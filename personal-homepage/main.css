@@ -2,3 +2,7 @@ body {
   margin:0 auto;
   overflow: hidden;
 }
+
+main, header,footer{
+  width:100%
+}
