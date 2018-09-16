@@ -1,8 +1,85 @@
 body {
+  padding: 0;
   margin:0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+/*  */
+main, header,footer{
+  width:100%;
+  margin-top: -1em;
 }
 
-main, header,footer{
-  width:100%
+/* Styling for the h2 descriptions */
+h2{
+background-color: #696969;
+padding:0 10px;
+box-shadow: 10px 5px 5px #000;
 }
+/* Navigation Section */
+#nav-links{
+  background-color: #696969;
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+#nav-links > li{
+  height: 15px;
+  padding:01.5em;
+  /* border-right: 2px solid #000; */
+   /* border-left: 2px solid #000; */
+}
+/* End Navigation Section */
+
+/* Picture Section */
+#picture-section{
+   display:flex;
+   justify-content: center;
+   height: 85vh;
+   background: linear-gradient(70deg,white,#42ebf4);
+}
+#myPhoto{
+  border:5px solid #000;
+  border-radius: 10px;
+  width:100%;
+}
+figcaption{
+
+}
+h1{
+  font-size: 1.2em;
+}
+/* End Picture Section */
+
+/* About */
+#about{
+  background: url('physics.jpg') no-repeat center center;
+  background-size: cover;
+  /* opacity: 0.33; */
+}
+
+article{
+  z-index:20;
+  margin:0 auto;
+  width:50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article > div{
+  margin: 0 20px;
+}
+
+/*End AbouT  */
+
+
+
+/* Footer section */
+footer{
+  width:50%;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+/* End Footer section */

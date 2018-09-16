@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
   <!-- Header section -->
   <header id="header">
     <!--Navigation Section  -->
     <nav>
-      <ul>
+      <ul id="nav-links">
         <li>About</li>
-        <li>Portfolio</li>
+        <li>Project</li>
+        <li>Education</li>
         <li>Contact</li>
       </ul>
     </nav>
@@ -28,37 +28,56 @@
     <!-- My photo and description -->
     <section id="picture-section">
       <figure>
-        <img src="mea.png" alt="Me and the crew">
-        <figcaption>
-          <p>
-            Data Scientist and Developer
-          </p>
-        </figcaption>
+        <h1>
+          Data Scientist and Developer
+        </h1>
+        <img id="myPhoto" src="mea.png" alt="Me and the crew">
       </figure>
     </section>
     <!--End Photo section  -->
 
     <!--About section  -->
   <section id="about">
-
-
     <article id="info">
-      <h1 >
-        About me
-      </h1>
-      <p>Hello! My name's Novan and I'm a Data Scientist as well as a Javascript and Python developer. I've got a makers curiosity for development and a passion for the story that data tells. Outside of programming, you can find me doing Astro and Quantum Physics, Hip-Hop Dance, and music. Catch me dancing or singing my way around San Francisco!</p>
+      <h2>About</h1>
+      <div>
+        <p>Hello! My name's Novan and I'm a Data Scientist as well as a Javascript and Python developer. I've got a makers curiosity for development and a passion for the story that data tells. Outside of programming, you can find me doing Astro and Quantum Physics, Hip-Hop Dance, and music. Catch me dancing or singing my way around San Francisco!</p>
+      </div>
     </article>
     <article id="skills">
-      
-      <p>Data Science</p>
-      <p>Full Stack Javascript Development</p>
-      <p>Python Programming</p>
-      <p>ML Optimization</p>
-      <p>Automation</p>
+      <h2>Skills</h2>
+      <div>
+        <p>Data Science</p>
+        <p>Full Stack Javascript Development</p>
+        <p>Python Programming</p>
+        <p>Natural Language Processing</p>
+        <p>Statistical Analysis</p>
+        <p>Machine Learning</p>
+        <p>Automation</p>
+      </div>
     </article>
+
     <article id="projects">
+      <h2>Projects</h2>
+      <div>
+        <p>Music Corner <span><a href="https://musiqqcorner-dca.herokuapp.com/">Visit Here</a></span></p>
+        <p>Sage Talk <span><a href="https://musiqqcorner-dca.herokuapp.com/">Visit Here</a></span></p>
+        <p>Cork <span><a href="http://www.corkdrinks.com">Visit Here</a></span></p>
+        <p>Data Science Curriculum - Make School <span><a href="https://www.makeschool.com/product-college/">Visit Here</a></span></p>
+        <p></p>
+      </div>
 
     </article>
+    <article id="Education">
+      <h2>Education</h2>
+      <div>
+        <p>Make School - Product College <span><a href="https://www.makeschool.com/product-college/">Visit Here</a></span></p>
+      </div>
+
+    </article>
+  </section>
+  <!-- End about section -->
+  <section id="contact">
 
   </section>
   <!-- end about section -->
@@ -67,7 +86,15 @@
 
   <!-- Footer section -->
   <footer id="footer">
-
+    <h2>Contact</h2>
+    <address>
+      <p>Make School</p>
+      <p>555 Post St.</p>
+      <p>San Francisco, California</p>
+      <p>USA</p>
+      <p>+858-652-8786</p>
+  <p>Email: <a href="mailto:donovan.adams@students.makeschool.com">donovan.adams@students.makeschool.com</a></p>
+    </address>
   </footer>
   <!--End footer section  -->
 </body>
