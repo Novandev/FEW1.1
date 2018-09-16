@@ -8,9 +8,24 @@ main, header,footer{
   width:100%;
   margin-top: -1em;
 }
-
+a{
+  text-decoration: none;
+}
+a:visited {
+  color:black;
+}
+a:hover{
+animation: glow infinite 1s;
+}
+@keyframes glow {
+  0% { color:#000}
+  25% {color:#696969}
+  50% { color:#fff }
+  75% {color:#696969}
+  100% { color:#000}
+}
 /* Styling for the h2 descriptions */
-h2{
+section > article >h2{
 background-color: #696969;
 padding:0 10px;
 box-shadow: 10px 5px 5px #000;
@@ -43,9 +58,7 @@ box-shadow: 10px 5px 5px #000;
   border-radius: 10px;
   width:100%;
 }
-figcaption{
 
-}
 h1{
   font-size: 1.2em;
 }
@@ -53,15 +66,14 @@ h1{
 
 /* About */
 #about{
-  background: url('physics.jpg') no-repeat center center;
+  background: url('./astronomy.jpg') no-repeat center center;
   background-size: cover;
   /* opacity: 0.33; */
 }
 
 article{
-  z-index:20;
   margin:0 auto;
-  width:50%;
+  width:75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +81,10 @@ article{
 article > div{
   margin: 0 20px;
 }
-
+#about > article> div >p{
+  line-height: 2.5;
+  color:#fff;
+}
 /*End AbouT  */
 
 
