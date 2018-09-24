@@ -1,9 +1,12 @@
-# JavaScript Class Objects and Protypical Inheritence
+# JavaScript Class Objects and Prototype
 
 While JavaScript is a Object Oriented Programming Language
 it handles Class Objects and Inheritence differently than 
 other languages. Understanding JavaScript's unique 
 inheritence model is key to fully understanding JavaScript.
+
+In this lesson you will take a look at how to create class 
+objects with JavaScript and how to use prototype. 
 
 ## Learning Objectives/Competencies
 
@@ -14,6 +17,17 @@ inheritence model is key to fully understanding JavaScript.
 
 ## Initial Exercise
 
+- What is an Object? 
+  - Objects are compound data types. The store 
+- What is a class? 
+
+Read this: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+
+- What is prototype? 
+  - Using Prototype
+
+## Overview 
+
 - Make an Object with a function
   - Add properties 
   - Add methods 
@@ -23,26 +37,15 @@ inheritence model is key to fully understanding JavaScript.
   - Add properties 
   - Add methods 
 
-## Overview/TT I 
-
-- 
-
 ## In Class Activity I
 
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
-
-## Overview/TT II (optional)
-
-## In Class Activity II (optional)
+- Make an object that represents
+  - A User
+  - A Car
+  - A cat
+- Let's try that again
+  - Make an Object that represents an RPG character
+  - Needs a few methods...
 
 ## After Class
 
@@ -52,4 +55,6 @@ inheritence model is key to fully understanding JavaScript.
 
 ## Additional Resources
 
+1. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
 1. https://developer.mozilla.org/en-US/docs/Web/API/Element
+1. https://hackernoon.com/prototypes-in-javascript-5bba2990e04b

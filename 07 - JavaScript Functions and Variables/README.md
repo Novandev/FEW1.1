@@ -1,6 +1,6 @@
 # JavaScript Functions and Variables 
 
-JavaScript is the language of the browser. Use to create 
+JavaScript is the language of the browser. Use it to create 
 complex user interactions, and manage data. JavaScript 
 has many of the fearures found in other languages and some 
 features unique to itself. 
@@ -14,35 +14,129 @@ features unique to itself.
 1. Invoke functions
 1. Use functions
 
+## Introduction
+
+The original purpose of JavaScript was to script 
+browsers. With JavaScript you can control almost all 
+of the features and functions of the browser. 
+
+Originally JavaScript was developed by Netscape for their 
+browser and called LiveScript. The name was soon changed to 
+JavaScript because Java was a new and popular language and 
+Netscape thought this would be good for marketing.
+
+While Java and JavaScript share the first 4 letters they 
+are completely unrelated otherwise. 
+
+## Where is JavaScript used?
+
+Everywhere. Seriously. Use JavaScript to: 
+
+- Build web pages
+  - Manipulate the DOM
+  - Add interactivity
+  - Create web apps 
+- Script the server
+  - JavaScript can run your server
+  - Handle server API requests
+- Embeded systems
+  - Use JavaScript to program hardware devices
+- Native applications
+  - Script native applications 
+  - Build native applications
+  
+JavaScript could be the most important programming language in use today. JavaScript was the most popular language in Stack Overflow's developer survey. 
+
+> Any application that can be written in JavaScript will eventually be written in JavaScript. - Jeff Atwood
+
+## Where can you write JavaScript? 
+
+JavaScript is plain text. It can be written in files with 
+the .js extension or written into .html files.
+
+Use the script tag to include JavaScript within an html document. 
+
+```
+<script>
+  // Some JavaScript here...
+  const message = 'hello world';
+</Script>
+```
+
+Or link to a JavaScript in a .js file like this: 
+
+```
+<script src="main.js"></script>
+```
+
+In `main.js` you would write JavaScript without the script tag. 
+
+```
+// Some JavaScript
+const foo = 'bar';
+```
+
+## What can 
+
+JavaScript has all of the features of standard programming 
+languages:
+
+- variables
+- loops
+- conditionals
+- arrays
+- objects
+
+It also has inheritence but uses a model that is different from other languages. 
+
+## Why learn JavaScript? 
+
+- You'll probably run into it at some point and you'll want to understand it. 
+- It could also become a job. There are many jobs that ask for JavaScript. 
+- You can use it to build everything from frontend to backend, and native apps. 
+
 ## Initial Exercise
 
 - Quick introduction to scripting the browser
-  - Where does JavaScript live? 
-- Common pitfalls and debugging
-  - The order scripts are loaded
+  - Where does JavaScript live?
+  - [example 1](example-1)
+  
+- Common pitfalls and debugging 
+  - Scripts load in order
   - Using the console
+  - [example 2](example-2)
 
 ## Overview 
 
 - Working with HTML Elements and JavaScript
+  - Accessing an element via it's id name 
+    - `document.getElementById()`
+  - Using JavaScript to manipulate the DOM
+    - `innerHTML`
+    - `value`
+  - Handle click events with JS
+    - `onclick`
+  - Set the content of an element with JS
+  - [Example 3](example-3)
+  
 - Functions and variables with JavaScript
-- Using id names with JS
-  - document.getElementById()
-- Variables 
-  - const, let, and var
-- Functions 
+  - `const`, `let`, and `var` (in that order!)
 
 ## In Class Activity I
 
-- I do, We do, You do: Example 1: Tip Calculator
 - Challenge: Make a tip calculator
+  - Start with the [Example 4](example-4)
 
 ## After Class
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
+- Create the calculator Challenges 1 - 3
+  - See the images in the [Example 4 folder](example-4)
+  - Style your work to look like the images
+- Stretch challenge Challenge 4. 
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+- https://developer.mozilla.org/en-US/docs/Web/API/Element
+- https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
