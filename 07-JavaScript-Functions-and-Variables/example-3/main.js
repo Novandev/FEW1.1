@@ -20,7 +20,7 @@ titleElement.style.color = '#398fc4';
 // Handle events 
 
 // Add an event listener to button_1
-button_1.onclick = function(e) {
+button_1.onclick = (e) => {
   titleElement.style.color = '#22dd11';
   titleElement.innerHTML = 'Run!';
 };
@@ -32,9 +32,9 @@ button_2.onclick = (e) => {
 }
 
 
-// 
 
 let numulation = 0;
+
 
 num_button.onclick = (e) => {
   // get the value from the input 
@@ -43,3 +43,11 @@ num_button.onclick = (e) => {
   numulation += num * pow;
   num_display.innerHTML = numulation;
 }
+
+
+
+
+
+
+
+
