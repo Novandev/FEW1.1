@@ -40,6 +40,8 @@
     toHTMLString() {
       return `${this.id} ${this.first} ${this.last}\n ${this.email} ${this.rating} ${this.high_score} ${this.date} ${this.image}`;
     }
+    
+    
   }
 
   // Challenge 7) Add a method to the class above
@@ -58,9 +60,13 @@
   // Save all of these to an array.
   let users = [];
   for (var i in data) {
+<<<<<<< HEAD
 
     let user= new User(data[i].id, data[i].prefix, data[i].first_name, data[i].last_name, data[i].email, data[i].rating, data[i].high_score, data[i].date, data[i].image);
     users.push(user)
+=======
+    console.log(data[i]); 
+>>>>>>> 29b92b258e62820fae565ce84aa3eafe09a44133
   }
   console.log(users)
   let templateStr=''
