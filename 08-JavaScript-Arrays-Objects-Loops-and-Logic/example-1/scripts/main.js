@@ -5,6 +5,7 @@ let str = '';
 
 for (var i = 0; i < data.length; i += 1) {
   const alien = data[i];
+<<<<<<< HEAD
   // console.log(alien);
   str += `<div class="alien-card">
           <h2> Name: ${alien.name}</h2>
@@ -13,6 +14,9 @@ for (var i = 0; i < data.length; i += 1) {
           <p>power: ${alien.power}</p>
           <p>rof: ${alien.rof}</p>
           </div>`;
+=======
+  str += `<div class="">${alien.name}</div>`;
+>>>>>>> 5ab998ec246939d264119a4d45aaecad26bf0df0
 }
 
 container.innerHTML = str;

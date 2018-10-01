@@ -1,0 +1,77 @@
+<div id="main">
+
+</div>
+
+
+<script src="data.js"></script>
+<script>
+  // -----------------------------------------
+  // Define an Object with Class Syntax
+
+  // Challenge 5) Look at the user data in data.js.
+  // Add properties here for each property found
+  // the objects in data.
+
+  // Stretch goal: Automate the process of adding
+  // properties with a loop...
+  // "id": 1,
+  // "prefix": "Rev",
+  // "first_name": "Augie",
+  // "last_name": "Sang",
+  // "email": "asang0@blog.com",
+  // "rating": 53.1075,
+  // "high_score": 280441,
+  // "date": "2017-04-02 13:03:57",
+  // "image": "https://robohash.org/architectoetest.png?size=50x50&set=set1"
+
+  class User {
+    constructor(id,prefix,first, last, email,rating,high_score,date,image) {
+      this.id = id;
+      this.prefix = prefix;
+      this.first = first;
+      this.last = last;
+      this.email = email;
+      this.rating= rating;
+      this.high_score= high_score;
+      this.date = new Date(date).toLocaleString();
+      this.image = image;
+    }
+
+    toHTMLString() {
+      return `${this.id} ${this.first} ${this.last}\n ${this.email} ${this.rating} ${this.high_score} ${this.date} ${this.image}`;
+    }
+  }
+
+  // Challenge 7) Add a method to the class above
+  // that generates an HTML string and returns it.
+  // Call it toHTMLString().
+  // This HTML string should show the users name,
+  // rating and high score. You can format it with
+  // html tags.
+
+  // ----------------------------------------
+
+  // This gets the main element
+  const main = document.getElementById('main');
+
+  // Challenge 7) Make a user Object for each user.
+  // Save all of these to an array.
+  let users = [];
+  for (var i in data) {
+
+    let user= new User(data[i].id, data[i].prefix, data[i].first_name, data[i].last_name, data[i].email, data[i].rating, data[i].high_score, data[i].date, data[i].image);
+    users.push(user)
+  }
+  console.log(users)
+  let templateStr=''
+  for (let user in users){
+    templateStr+= `<div class="user"> ${users[user].toHTMLString()} </div>`;
+  }
+
+  main.innerHTML = templateStr;
+  // Challenge 8)
+  // Loop through all of the User Objects and
+  // display them in the browser by calling their
+  // toHTMLString() method.
+
+</script>
