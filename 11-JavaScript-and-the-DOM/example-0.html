@@ -37,31 +37,33 @@
     grid-template-columns: repeat(4, 170px);
     grid-gap: 10px;
   }
-  
+
   .container > div {
     height: 100px;
     padding: 1em;
   }
-  
+
   /* -----------------------------------------------------
-  
-  Use relative position to move an elment relative 
-  to the position where the layout system would have placed it. 
-  The values below move the element 20px to the right of 
-  and 20px down from where it normally would be placed. 
-  
+
+  Use relative position to move an elment relative
+  to the position where the layout system would have placed it.
+  The values below move the element 20px to the right of
+  and 20px down from where it normally would be placed.
+
   */
-  
-  
+
+
   /* Rule applies to the 7th child in container */
   .container > div:nth-child(7) {
+    /* after the rest of the style sheet is one rendering, this gets applied */
     position: relative; /* use relative position */
     left: 20px;         /* Push 20px from the left edge */
     top: 30px;          /* Push 30px down from the top */
   }
-  
-  
+
+
   .container > div > h1 {
+    /*absolute postion puts it on the page absolutely  */
     position: absolute;
     background-color: rgba(255,255,255, 0.5);
     padding: 1em;
@@ -70,7 +72,7 @@
     bottom: 5px;
     margin: 0;
   }
-  
+
   .container > div > div {
     position: absolute;
     top: 5px;
@@ -85,11 +87,11 @@
     justify-content: center;
     align-items: center;
   }
-  
-  
-  
+
+
+
   /* ----------------------------------------------------- */
-  
+
   .container > div:nth-child(1) { background-color: #ffd07b; }
   .container > div:nth-child(2) { background-color: #ffff7c; }
   .container > div:nth-child(3) { background-color: #bcff7b; }
@@ -103,3 +105,4 @@
   .container > div:nth-child(11) { background-color: #9fea9f; }
   .container > div:nth-child(12) { background-color: #edacac; }
 </style>
+<!--  -->
