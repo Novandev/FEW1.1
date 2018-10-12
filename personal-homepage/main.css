@@ -87,7 +87,17 @@ article > div{
 }
 /*End AbouT  */
 
+/*API SECTION*/
+#api{
 
+}
+#results-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 10px;
+  list-style-type: none;
+}
+/*END API*/
 
 /* Footer section */
 footer{

@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b84e12fe-6272-4aa3-bc24-b50227135b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-JavaScript-and-the-DOM/example-1.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-JavaScript-and-the-DOM/example-1.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-JavaScript-and-the-DOM/example-1.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Untitled-7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shadow-dom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-JavaScript-Browser-API-part-1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/10-JavaScript-Browser-API-part-1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-JavaScript-and-the-DOM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/11-JavaScript-and-the-DOM/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-JavaScript-and-the-DOM/example-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-JavaScript-and-the-DOM/example-0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript-api-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-api-project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-CSS-Layout-with-Grid/example-2/css-grid-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-CSS-Layout-with-Grid/example-2/css-grid-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserProject/DbOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/browserProject/DbOperations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/browserProject/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserProject/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/browserProject/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal-homepage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-homepage/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/personal-homepage/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,28 +29,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="js" value="2" />
-          <entry key="md" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="4" />
+          <entry key="js" value="3" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="4" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1206" />
-          <entry key="js" value="892" />
+          <entry key="css" value="58" />
+          <entry key="html" value="1416" />
+          <entry key="js" value="2007" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1206" />
-          <entry key="JavaScript" value="892" />
+          <entry key="CSS" value="58" />
+          <entry key="HTML" value="1426" />
+          <entry key="JavaScript" value="1997" />
         </counts>
       </usages-collector>
     </session>
@@ -61,43 +62,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-CSS-Box-Model/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-90" />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/personal-homepage/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-CSS-Box-Model/challenge-1.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browserProject/index.html">
+        <entry file="file://$PROJECT_DIR$/06-CSS-Layout-with-Grid/example-2/css-grid-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+            <state relative-caret-position="298">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/browserProject/DbOperations.js">
+        <entry file="file://$PROJECT_DIR$/personal-homepage/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browserProject/main.js">
+        <entry file="file://$PROJECT_DIR$/personal-homepage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="167">
+              <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -110,9 +105,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/browserProject/DbOperations.js" />
         <option value="$PROJECT_DIR$/browserProject/index.html" />
         <option value="$PROJECT_DIR$/browserProject/main.js" />
-        <option value="$PROJECT_DIR$/browserProject/DbOperations.js" />
+        <option value="$PROJECT_DIR$/personal-homepage/index.html" />
+        <option value="$PROJECT_DIR$/06-CSS-Layout-with-Grid/example-2/css-grid-1.html" />
+        <option value="$PROJECT_DIR$/personal-homepage/main.css" />
+        <option value="$PROJECT_DIR$/personal-homepage/script.js" />
       </list>
     </option>
   </component>
@@ -145,7 +144,29 @@
             <path>
               <item name="FEW-1.1-Web-Foundations" type="b2602c69:ProjectViewProjectNode" />
               <item name="FEW-1.1-Web-Foundations" type="462c0819:PsiDirectoryNode" />
+              <item name="06-CSS-Layout-with-Grid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FEW-1.1-Web-Foundations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FEW-1.1-Web-Foundations" type="462c0819:PsiDirectoryNode" />
+              <item name="06-CSS-Layout-with-Grid" type="462c0819:PsiDirectoryNode" />
+              <item name="example-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FEW-1.1-Web-Foundations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FEW-1.1-Web-Foundations" type="462c0819:PsiDirectoryNode" />
+              <item name="06-CSS-Layout-with-Grid" type="462c0819:PsiDirectoryNode" />
+              <item name="example-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FEW-1.1-Web-Foundations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FEW-1.1-Web-Foundations" type="462c0819:PsiDirectoryNode" />
               <item name="browserProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FEW-1.1-Web-Foundations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FEW-1.1-Web-Foundations" type="462c0819:PsiDirectoryNode" />
+              <item name="personal-homepage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,35 +201,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539190201279</updated>
-      <workItem from="1539190207923" duration="7026000" />
+      <workItem from="1539190207923" duration="18410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7026000" />
+    <option name="totallyTimeSpent" value="18410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="63" width="1260" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.24939467" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24939467" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -228,24 +268,60 @@
     <entry file="file://$PROJECT_DIR$/04-CSS-Box-Model/challenge-1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/browserProject/DbOperations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/browserProject/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/browserProject/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="107">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browserProject/DbOperations.js">
+    <entry file="file://$PROJECT_DIR$/06-CSS-Layout-with-Grid/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-834" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal-homepage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="167">
+          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-CSS-Layout-with-Grid/example-2/css-grid-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal-homepage/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal-homepage/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
