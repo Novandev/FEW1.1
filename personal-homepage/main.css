@@ -89,7 +89,7 @@ article > div{
 
 /*API SECTION*/
 #api{
-
+border: 5px solid black;
 }
 #results-list{
   display: grid;
