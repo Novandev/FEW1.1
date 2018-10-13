@@ -1,0 +1,10 @@
+
+header {
+    background-color: #38AE7E;
+
+}
+
+header > nav> ul{
+    display:flex;
+    justify-content: space-around;
+}

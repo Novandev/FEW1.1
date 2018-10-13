@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
     <link rel="stylesheet" href="main.css">
     <title>Browser Project</title>
 </head>
@@ -39,36 +40,39 @@
     <section id="operation">
         <legend>Database Operations</legend>
         <!--Add entry by name input field-->
-        <form action="">
+        <form >
             <fieldset>
-                <p>
-                    <label for="name_add">Add a name to this database</label>
-                    <input type="text" name="name_add" id="name_add" value="Add here">
-                </p>
+
+                    <label for="nameAdd">Add a name to this database</label>
+                    <input type="text" name="name_add" id="nameAdd"  placeholder="Name" required>
+                    <button id="add_button">Add Name</button>
+
             </fieldset>
         </form>
         <!--End add to database input field-->
 
         <!--Query database by name input feild-->
-        <form action="">
+        <form >
             <fieldset>
-                <p>
+
                     <label for="name_query">Search for a Name</label>
-                    <input type="text" name="name_add" id="name_query" value="Search">
-                </p>
+                    <input type="text" name="name_query" id="name_query" placeholder="Search" required>
+                    <button id="search_button">Search Name</button>
+
             </fieldset>
         </form>
         <!--End Query databse by name input feild-->
 
         <!--Edit entry by name field-->
-        <form action="">
-            <fieldset>
-                <p>
-                    <label for="name_edit">Edit a Name</label>
-                    <input type="text" name="name_edit" id="name_edit" value="Edit a name">
-                </p>
-            </fieldset>
-        </form>
+        <!--<form action="">-->
+            <!--<fieldset>-->
+                <!--<p>-->
+                    <!--<label for="name_edit">Edit a Name</label>-->
+                    <!--<input type="text" name="name_edit" id="name_edit" value="Edit a name">-->
+                    <!--<button></button>-->
+                <!--</p>-->
+            <!--</fieldset>-->
+        <!--</form>-->
         <!-- End Edit database by name field-->
 
         <!--Delete entry by name field-->
@@ -76,7 +80,8 @@
             <fieldset>
                 <p>
                     <label for="name_delete">Edit a Name</label>
-                    <input type="text" name="name_delete" id="name_delete" value="Delete a name">
+                    <input type="text" name="name_delete" id="name_delete" placeholder="Delete" required>
+                    <button id="delete_button">Delete Name</button>
                 </p>
             </fieldset>
         </form>
